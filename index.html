@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Astro Smasher</title>
+  <style>
+  @import url(http://fonts.googleapis.com/css?family=Orbitron);
+
+  html, body {
+    padding: 0;
+    margin:  0;
+
+    height: 100%;
+    height: 100vh;
+
+    overflow: hidden;
+  }
+
+  #bar {
+    font-family: Orbitron, sans-serif;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 2.0em;
+    background: black;
+    color: white;
+    line-height: 1.5em;
+  }
+
+  
+  </style>
+</head>
+<body>
+  <div id="bar">
+    Health: <span id="health">100</span>%
+    &nbsp;&nbsp;
+    Score: <span id="score">0</span>
+    &nbsp;&nbsp;  
+    &nbsp;&nbsp;
+    <!-- Place this tag where you want the button to render. -->
+    <a class="github-button" href="https://github.com/ntkme/github-buttons" data-icon="octicon-star" aria-label="Star ntkme/github-buttons on GitHub">Star</a>
+  </div>
+  <script src="app.js"></script>  
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+</body>
+</html>
