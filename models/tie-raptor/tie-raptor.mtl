@@ -1,0 +1,131 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 27.12.2015 18:33:59
+
+newmtl GRAY_TIE
+	Ns 27.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.1098 0.1098 0.1255
+	Kd 0.4392 0.4392 0.4941
+	Ks 0.3839 0.3839 0.4012
+	Ke 0.0000 0.0000 0.0000
+
+newmtl GRAY_2_TIE
+	Ns 27.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.3839 0.3839 0.4012
+	Ke 0.0000 0.0000 0.0000
+
+newmtl GRAY_WIN
+	Ns 27.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0941 0.0941 0.0941
+	Kd 0.1451 0.1451 0.1608
+	Ks 0.2653 0.2653 0.2955
+	Ke 0.0000 0.0000 0.0000
+
+newmtl RED_METAL
+	Ns 70.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0078 0.0000 0.0000
+	Kd 0.4549 0.0471 0.0471
+	Ks 0.7700 0.7700 0.7700
+	Ke 0.9804 0.0000 0.0000
+	map_refl C:\Documents and Settings\glenn\Desktop\REFMAP.GIF
+
+newmtl TIE_GLASS
+	Ns 53.0000
+	Ni 1.5000
+	d 0.1700
+	Tr 0.8300
+	Tf 0.1700 0.1700 0.1700 
+	illum 2
+	Ka 0.1843 0.1255 0.2980
+	Kd 0.2510 0.1725 0.4078
+	Ks 1.0000 1.0000 1.0000
+	Ke 0.0000 0.0000 0.0000
+	map_refl Map__9_Raytrace.tga
+
+newmtl FIRE
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0000 0.0000 0.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Documents and Settings\glenn\Desktop\ENG2.JPG
+	map_Kd C:\Documents and Settings\glenn\Desktop\ENG2.JPG
+	map_Ke C:\Documents and Settings\glenn\Desktop\ENGLIGHT.GIF
+
+newmtl ENGINE_FLAM
+	Ns 0.0000
+	Ni 1.5000
+	d 0.0000
+	Tr 1.0000
+	Tf 0.0000 0.0000 0.0000 
+	illum 2
+	Ka 0.2667 0.0000 0.0000
+	Kd 0.7922 0.0745 0.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.7922 0.0745 0.0000
+	map_d C:\Documents and Settings\glenn\Desktop\FLAME.JPG
+
+newmtl SOLAR_PANELS
+	Ns 27.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0588 0.0392 0.1333
+	Kd 0.0941 0.0667 0.2196
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_bump C:\Documents and Settings\glenn\Desktop\paneln.jpg
+	bump C:\Documents and Settings\glenn\Desktop\paneln.jpg
+
+newmtl RED_METAL2
+	Ns 70.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.8824 0.0471 0.0863
+	Kd 0.8824 0.0471 0.0863
+	Ks 0.7700 0.7700 0.7700
+	Ke 0.0000 0.0000 0.0000
+	map_refl C:\Documents and Settings\glenn\Desktop\REFMAP.GIF
+
+newmtl 11___Default
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 1.0000 0.5176 0.0000

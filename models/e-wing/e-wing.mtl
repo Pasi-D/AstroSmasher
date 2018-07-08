@@ -1,0 +1,560 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 24.12.2015 10:06:54
+
+newmtl ENGINE_HULL
+	Ns 59.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0706 0.0784 0.0941
+	Kd 0.4471 0.4824 0.6000
+	Ks 0.1400 0.1400 0.1400
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Documents and Settings\glenn\Desktop\EWNGNOSE.JPG
+	map_Kd C:\Documents and Settings\glenn\Desktop\EWNGNOSE.JPG
+
+newmtl WING_RIGHT
+	Ns 13.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0824 0.0824 0.0824
+	Kd 0.7373 0.7373 0.7373
+	Ks 0.1000 0.1000 0.1000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Documents and Settings\glenn\Desktop\EWINGWNG.JPG
+	map_Kd C:\Documents and Settings\glenn\Desktop\EWINGWNG.JPG
+
+newmtl WING_LEFT
+	Ns 59.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0431 0.0431 0.0431
+	Kd 0.2745 0.2706 0.2824
+	Ks 0.1400 0.1400 0.1400
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Documents and Settings\glenn\Desktop\EWNGWNGR.JPG
+	map_Kd C:\Documents and Settings\glenn\Desktop\EWNGWNGR.JPG
+
+newmtl WING_COLOR
+	Ns 59.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0706 0.0784 0.0941
+	Kd 0.4471 0.4824 0.6000
+	Ks 0.1400 0.1400 0.1400
+	Ke 0.0000 0.0000 0.0000
+
+newmtl WING_DARK_BLUE
+	Ns 59.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0039 0.0039 0.0039
+	Kd 0.0314 0.0314 0.0353
+	Ks 0.1400 0.1400 0.1400
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Documents and Settings\glenn\Desktop\EWNGBLU.JPG
+	map_Kd C:\Documents and Settings\glenn\Desktop\EWNGBLU.JPG
+
+newmtl WING_BLUE
+	Ns 52.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0980 0.0510 0.0039
+	Kd 0.8980 0.4588 0.0510
+	Ks 0.1000 0.1000 0.1000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Documents and Settings\glenn\Desktop\EWNGBLU.JPG
+	map_Kd C:\Documents and Settings\glenn\Desktop\EWNGBLU.JPG
+
+newmtl arm_l
+	Ns 13.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0078 0.0392 0.0078
+	Kd 0.0784 0.3569 0.1020
+	Ks 0.1000 0.1000 0.1000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl arm_r
+	Ns 13.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0078 0.0392 0.0078
+	Kd 0.0784 0.3569 0.1020
+	Ks 0.1000 0.1000 0.1000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl chest
+	Ns 13.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0353 0.0353 0.0392
+	Kd 0.3451 0.3333 0.3569
+	Ks 0.1000 0.1000 0.1000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl SKIN
+	Ns 13.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.8275 0.5490 0.3843
+	Kd 0.8157 0.5294 0.3294
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Documents and Settings\glenn\Desktop\SKIN2.JPG
+	map_Kd C:\Documents and Settings\glenn\Desktop\SKIN2.JPG
+
+newmtl HELMET_GRAY
+	Ns 13.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0980 0.0902 0.0941
+	Kd 0.8980 0.8196 0.8784
+	Ks 0.1000 0.1000 0.1000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl HELMET_BLUE
+	Ns 13.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0078 0.0078 0.0627
+	Kd 0.0745 0.0941 0.5647
+	Ks 0.1000 0.1000 0.1000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl hips
+	Ns 13.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0078 0.0392 0.0078
+	Kd 0.0941 0.3569 0.0824
+	Ks 0.1000 0.1000 0.1000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl visor
+	Ns 13.0000
+	Ni 1.5000
+	d 0.4500
+	Tr 0.5500
+	Tf 0.4500 0.4500 0.4500 
+	illum 2
+	Ka 0.0784 0.0706 0.0000
+	Kd 0.7176 0.6627 0.0196
+	Ks 0.1000 0.1000 0.1000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl hand_r
+	Ns 13.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0235 0.0235 0.0235
+	Ks 0.1000 0.1000 0.1000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl wrist_r
+	Ns 13.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0078 0.0392 0.0078
+	Kd 0.0784 0.3569 0.1020
+	Ks 0.1000 0.1000 0.1000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl hand_l
+	Ns 13.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0235 0.0235 0.0235
+	Ks 0.1000 0.1000 0.1000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl wrist_l
+	Ns 13.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0078 0.0392 0.0078
+	Kd 0.0784 0.3569 0.1020
+	Ks 0.1000 0.1000 0.1000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl HULL_GRAY
+	Ns 59.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0706 0.0784 0.0941
+	Kd 0.4471 0.4824 0.6000
+	Ks 0.1400 0.1400 0.1400
+	Ke 0.0000 0.0000 0.0000
+
+newmtl HULL_SIDE_FRONT
+	Ns 13.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0824 0.0824 0.0824
+	Kd 0.7373 0.7373 0.7373
+	Ks 0.1000 0.1000 0.1000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Documents and Settings\glenn\Desktop\EWNGTEX.JPG
+	map_Kd C:\Documents and Settings\glenn\Desktop\EWNGTEX.JPG
+
+newmtl HULL_BLUE
+	Ns 52.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0980 0.0510 0.0039
+	Kd 0.8980 0.4588 0.0510
+	Ks 0.1000 0.1000 0.1000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Documents and Settings\glenn\Desktop\EWNGBLU.JPG
+	map_Kd C:\Documents and Settings\glenn\Desktop\EWNGBLU.JPG
+
+newmtl HULL_TOP
+	Ns 59.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0706 0.0784 0.0941
+	Kd 0.4471 0.4824 0.6000
+	Ks 0.1400 0.1400 0.1400
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Documents and Settings\glenn\Desktop\EWINGBOD.JPG
+	map_Kd C:\Documents and Settings\glenn\Desktop\EWINGBOD.JPG
+
+newmtl HULL_BODY
+	Ns 59.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0706 0.0784 0.0941
+	Kd 0.4471 0.4824 0.6000
+	Ks 0.1400 0.1400 0.1400
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Documents and Settings\glenn\Desktop\EWINGBOD.JPG
+	map_Kd C:\Documents and Settings\glenn\Desktop\EWINGBOD.JPG
+
+newmtl TOP_COLOR
+	Ns 59.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0706 0.0784 0.0941
+	Kd 0.4471 0.4824 0.6000
+	Ks 0.1400 0.1400 0.1400
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Documents and Settings\glenn\Desktop\EWNGTEX.JPG
+	map_Kd C:\Documents and Settings\glenn\Desktop\EWNGTEX.JPG
+
+newmtl HULL_SIDE_BACK
+	Ns 52.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0980 0.0510 0.0039
+	Kd 0.8980 0.4588 0.0510
+	Ks 0.1000 0.1000 0.1000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Documents and Settings\glenn\Desktop\EWNGSIDE.JPG
+	map_Kd C:\Documents and Settings\glenn\Desktop\EWNGSIDE.JPG
+
+newmtl HELMET_RED
+	Ns 13.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0980 0.0000 0.0000
+	Kd 0.7843 0.0314 0.0196
+	Ks 0.1000 0.1000 0.1000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl GUNS_GRAY
+	Ns 59.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.4471 0.4824 0.6000
+	Ks 0.1400 0.1400 0.1400
+	Ke 0.0000 0.0000 0.0000
+
+newmtl YELLOW_STRIPES
+	Ns 13.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0824 0.0824 0.0824
+	Kd 0.7373 0.7373 0.7373
+	Ks 0.1000 0.1000 0.1000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Documents and Settings\glenn\Desktop\YL-STR.JPG
+	map_Kd C:\Documents and Settings\glenn\Desktop\YL-STR.JPG
+
+newmtl DARK_GRAY
+	Ns 59.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.2824 0.3098 0.3922
+	Ks 0.1400 0.1400 0.1400
+	Ke 0.0000 0.0000 0.0000
+
+newmtl ENGINE_GLOW
+	Ns 13.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 0.4471 0.4471
+	Ks 0.0000 0.0000 0.0000
+	Ke 1.0000 0.4471 0.4471
+
+newmtl ENGINE_DIRT
+	Ns 52.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.1176 0.1176 0.1176
+	Kd 0.2745 0.2745 0.2745
+	Ks 0.1000 0.1000 0.1000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Documents and Settings\glenn\Desktop\DRTYHUL2.JPG
+	map_Kd C:\Documents and Settings\glenn\Desktop\DRTYHUL2.JPG
+
+newmtl ENGINE_GRAY
+	Ns 52.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0392 0.0392 0.0392
+	Kd 0.1176 0.1176 0.1176
+	Ks 0.1000 0.1000 0.1000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl ENGINE_BLUE
+	Ns 52.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0980 0.0510 0.0039
+	Kd 0.8980 0.4588 0.0510
+	Ks 0.1000 0.1000 0.1000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Documents and Settings\glenn\Desktop\EWNGBLU.JPG
+	map_Kd C:\Documents and Settings\glenn\Desktop\EWNGBLU.JPG
+
+newmtl SIDE_GRAY
+	Ns 59.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0706 0.0784 0.0941
+	Kd 0.4471 0.4824 0.6000
+	Ks 0.1400 0.1400 0.1400
+	Ke 0.0000 0.0000 0.0000
+
+newmtl SIDE_DIRTY_HULL
+	Ns 52.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0980 0.0510 0.0039
+	Kd 0.8980 0.4588 0.0510
+	Ks 0.1000 0.1000 0.1000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Documents and Settings\glenn\Desktop\DRTYHUL2.JPG
+	map_Kd C:\Documents and Settings\glenn\Desktop\DRTYHUL2.JPG
+
+newmtl SIDE_DETAIL
+	Ns 13.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0392 0.0392 0.0431
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Documents and Settings\glenn\Desktop\CLDCITY2.TGA
+	map_Kd C:\Documents and Settings\glenn\Desktop\CLDCITY2.TGA
+
+newmtl DIRTY_HULL
+	Ns 52.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0980 0.0510 0.0039
+	Kd 0.8980 0.4588 0.0510
+	Ks 0.1000 0.1000 0.1000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Documents and Settings\glenn\Desktop\DRTYHUL2.JPG
+	map_Kd C:\Documents and Settings\glenn\Desktop\DRTYHUL2.JPG
+
+newmtl BROWN_GLOW
+	Ns 80.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.1490 0.0745 0.0078
+	Kd 0.0980 0.0510 0.0039
+	Ks 0.8900 0.8900 0.8900
+	Ke 0.0980 0.0510 0.0039
+
+newmtl COCKPIT_DETAIL
+	Ns 13.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0392 0.0392 0.0431
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Documents and Settings\glenn\Desktop\CLDCITY2.TGA
+	map_Kd C:\Documents and Settings\glenn\Desktop\CLDCITY2.TGA
+
+newmtl VERY_DARK_GRAY
+	Ns 59.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0039 0.0039 0.0039
+	Kd 0.0314 0.0314 0.0353
+	Ks 0.1400 0.1400 0.1400
+	Ke 0.0000 0.0000 0.0000
+
+newmtl COCKPIT_COLOR
+	Ns 59.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0706 0.0784 0.0941
+	Kd 0.4471 0.4824 0.6000
+	Ks 0.1400 0.1400 0.1400
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Documents and Settings\glenn\Desktop\EWNGTEX.JPG
+	map_Kd C:\Documents and Settings\glenn\Desktop\EWNGTEX.JPG
+
+newmtl BLACK_GLASS
+	Ns 83.0000
+	Ni 1.5000
+	d 0.6500
+	Tr 0.3500
+	Tf 0.6500 0.6500 0.6500 
+	illum 2
+	Ka 0.1020 0.0980 0.1020
+	Kd 0.0353 0.0353 0.0392
+	Ks 0.8700 0.8700 0.8700
+	Ke 0.0088 0.0088 0.0098
+
+newmtl NOSE_COLOR
+	Ns 52.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0980 0.0510 0.0039
+	Kd 0.8980 0.4588 0.0510
+	Ks 0.1000 0.1000 0.1000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Documents and Settings\glenn\Desktop\EWNGNOSE.JPG
+	map_Kd C:\Documents and Settings\glenn\Desktop\EWNGNOSE.JPG
