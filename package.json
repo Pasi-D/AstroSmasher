@@ -1,5 +1,5 @@
 {
-  "name": "space-blaster",
+  "name": "AstroSmasher",
   "version": "1.0.0",
   "description": "A retro game using threejs",
   "main": "index.js",
