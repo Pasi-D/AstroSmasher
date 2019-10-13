@@ -1,0 +1,21 @@
+{
+  "name": "@astrosmasher/shared",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "16.9.0",
+    "react-native": "0.61.2"
+  },
+  "devDependencies": {
+    "@types/react-native": "0.60.18",
+    "typescript": "3.6.3"
+  }
+}

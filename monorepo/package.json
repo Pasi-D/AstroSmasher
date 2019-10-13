@@ -1,0 +1,30 @@
+{
+  "name": "react-astrosmasher-monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Retro game made for web & mobile",
+  "main": "index.js",
+  "scripts": {
+    "test": "lerna run test",
+    "new-version": "lerna version --conventional-commits",
+    "diff": "lerna diff",
+    "clean": "lerna clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xXZang3tsuXx/AstroSmasher.git"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "keywords": [],
+  "author": "Pasindu Dilshan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xXZang3tsuXx/AstroSmasher.git"
+  },
+  "homepage": "https://github.com/xXZang3tsuXx/AstroSmasher.git/monorepo/#readme",
+  "devDependencies": {
+    "lerna": "^3.16.4"
+  }
+}
