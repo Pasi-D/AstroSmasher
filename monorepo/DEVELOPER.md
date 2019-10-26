@@ -1,6 +1,8 @@
 ## Major Pain points in developement and workarounds :man_facepalming:
 
-We're using the [latest version (v0.61.2)](https://github.com/facebook/react-native/releases/tag/v0.61.2) of react native for the mobile & [v0.55.4](https://github.com/facebook/react-native/releases/tag/v0.55.4) for the web. So Mobile Package uses ```no-hoist``` option to house react-native & react modules.
+## 1. Conflicts with react-native versions for web & mobile
+
+We're using the [latest version (v0.61.2)](https://github.com/facebook/react-native/releases/tag/v0.61.2) of react native for the mobile & [v0.55.4](https://github.com/facebook/react-native/releases/tag/v0.55.4) for the web. So Mobile Package uses ```no-hoist``` option to house react-native & react modules within it's directory.
 
 One of the biggest complains of React-Native is that symlinks doesn't work with the default bundler -     Metro.
 
