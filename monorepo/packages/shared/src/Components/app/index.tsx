@@ -1,32 +1,29 @@
-import React from 'react';
-import { ScrollView, View, Text, SafeAreaView, StatusBar } from "react-native";
-import { appStyles } from "Styles";
+import React, { useRef } from 'react';
+import { Canvas, useFrame } from 'react-three-fiber';
+
+// Dummy geometrix box component
+
+function BoxBox() {
+ const ref: any = useRef();
+ useFrame(() => (ref.current.rotation.x = ref.current.rotation.y += 0.01))
+ return (
+   <mesh
+     ref={ref}
+     onClick={e => console.log('click')}
+     onPointerOver={e => console.log('hover')}
+     onPointerOut={e => console.log('unhover')}>
+     <boxBufferGeometry attach="geometry" args={[1, 1, 1]} />
+     <meshNormalMaterial attach="material" />
+   </mesh>
+ )
+}
 
 export const App = () => {
  return (
-   <>
-     <StatusBar barStyle="dark-content" />
-     <SafeAreaView>
-       <ScrollView
-         contentInsetAdjustmentBehavior="automatic"
-         style={appStyles.scrollView}>
-         <View style={appStyles.body}>
-           <View style={appStyles.sectionContainer}>
-             <Text style={appStyles.sectionTitle}>Step One</Text>
-             <Text style={appStyles.sectionDescription}>
-               Edit <Text style={appStyles.highlight}>App.js</Text> to change this
-               screen and then come back to see your edits.
-             </Text>
-           </View>
-           <View style={appStyles.sectionContainer}>
-             <Text style={appStyles.sectionTitle}>Learn More</Text>
-             <Text style={appStyles.sectionDescription}>
-               Read the docs to discover what to do next:
-             </Text>
-           </View>
-         </View>
-       </ScrollView>
-     </SafeAreaView>
-   </>
+  <Canvas>
+   <BoxBox />
+  </Canvas>
  );
-};
+}
+
+export default App;
