@@ -1,7 +1,7 @@
 {
   "name": "@astrosmasher/web",
   "version": "0.1.0",
-  "private": true,  
+  "private": true,
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -30,6 +30,8 @@
     "react-native": "0.55.4",
     "react-native-web": "^0.11.7",
     "react-scripts": "3.2.0",
+    "react-three-fiber": "^3.0.7",
+    "three": "^0.109.0",
     "typescript": "3.6.3"
   },
   "devDependencies": {
