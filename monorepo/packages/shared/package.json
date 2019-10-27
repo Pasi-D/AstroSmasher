@@ -1,6 +1,6 @@
 {
   "name": "@astrosmasher/shared",
-  "version": "1.0.0",
+  "version": "1.0.7",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -12,7 +12,10 @@
   "license": "ISC",
   "dependencies": {
     "react": "16.9.0",
-    "react-native": "0.61.2"
+    "react-dom": "16.9.0",
+    "react-native": "0.61.2",
+    "react-three-fiber": "^3.0.7",
+    "three": "^0.109.0"
   },
   "devDependencies": {
     "@types/react-native": "0.60.18",
