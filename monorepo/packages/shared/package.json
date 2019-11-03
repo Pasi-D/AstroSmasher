@@ -1,6 +1,6 @@
 {
   "name": "@astrosmasher/shared",
-  "version": "1.0.7",
+  "version": "0.0.1",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
